@@ -1,0 +1,34 @@
+html {
+    width: 100%;
+    height: 100%;
+    background-image: url("magicDragon.jpg");
+    background-color: rgb(27, 129, 138);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.topContainer {
+    text-align: center;
+    padding: 15px;
+}
+.topContainer input[type = "number"] {
+    background-color: rgb(172, 208, 255);
+}
+::placeholder {
+    color: rgb(12, 12, 12);
+}
+#main {
+    width: 100%;
+    height: calc(80% - 5px);
+    position: fixed;
+    overflow: scroll;
+}
+#main::-webkit-scrollbar {
+    display: none;
+}
+hr {
+    border: 4px double rgb(63, 47, 247);
+}
+button {
+    background-color: rgb(118, 169, 236);
+}
