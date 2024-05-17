@@ -29,6 +29,9 @@ html {
 hr {
     border: 4px double rgb(63, 47, 247);
 }
-button {
+.button {
     background-color: rgb(118, 169, 236);
+}
+.button:hover {
+    background-color: rgb(62, 89, 125);
 }
