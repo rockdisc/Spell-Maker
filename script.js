@@ -47,6 +47,7 @@ function add() {
         manaTotal -= cost.value
         manaDisplay.innerHTML = manaTotal
     }
+    use.classList.add("button")
 
     let description = document.createElement("input")
     description.type = "text"
